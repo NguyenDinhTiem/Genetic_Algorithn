@@ -320,9 +320,7 @@ plt.show()
 ```
 
 ![a2.png](https://github.com/NguyenDinhTiem/Genetic_Algorithn/blob/main/a2.png)
+
+
+
 Bài Viết tham khảo từ tài liệu khóa học mùa thu AI Foundation Course by AI Việt Nam
-
-
-```python
-
-```
