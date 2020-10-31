@@ -49,7 +49,7 @@ for individual in population:
     print(individual)
 ```
 
-<h5><li>Population Init: là giai đoạn khởi tạo các giá trị ngẫu nhiên với thông tin như sau - quần thể là m, cá thể là n.
+- Population Init: là giai đoạn khởi tạo các giá trị ngẫu nhiên với thông tin như sau - quần thể là m, cá thể là n.
 
 ## Evalution
 
@@ -83,7 +83,7 @@ def selection(sorted_old_population):
     return individual_s 
 ```
 
-<h5><li>Selection: dùng để chọn ra các cá thể tốt nhất trong quần thể. Nguyên tắc chọn là lấy giá trị fitness cao nhất của các thể.
+- Selection: dùng để chọn ra các cá thể tốt nhất trong quần thể. Nguyên tắc chọn là lấy giá trị fitness cao nhất của các thể.
 
 >> ## Crossover
 
@@ -104,7 +104,7 @@ def crossover(individual1, individual2, crossover_rate = 0.9):
     return individual1_new, individual2_new
 ```
 
-<h5><li>Crossover: nhằm lai ghép 2 cá thể. Trong ví dụ này, binary crossover dùng để thực hiện lai tạo. Nguyên tắc hoạt động của binary crossover cho trước tỷ lệ thực hiện $R_{rc} = 0.9$, sinh ra một boolean vector $v_{cr}$ có độ dài n, trong đó mỗi phần tử chứa giá trị True hoặc False. Giá trị True cho một vị trí index nghĩa là thực hiện việc trao đổi gen ở vị trí đó giữa hai cá thể.
+- Crossover: nhằm lai ghép 2 cá thể. Trong ví dụ này, binary crossover dùng để thực hiện lai tạo. Nguyên tắc hoạt động của binary crossover cho trước tỷ lệ thực hiện $R_{rc} = 0.9$, sinh ra một boolean vector $v_{cr}$ có độ dài n, trong đó mỗi phần tử chứa giá trị True hoặc False. Giá trị True cho một vị trí index nghĩa là thực hiện việc trao đổi gen ở vị trí đó giữa hai cá thể.
 
 >> ## Mutate
 
@@ -120,7 +120,7 @@ def mutate(individual, mutation_rate = 0.05):
     return individual_m
 ```
 
-<h5><li>Mutate: chức năng làm đột biến gen cho cá thể. Gen cần đột biến sẽ nhận một giá trị ngẫn nhiên nằm trong miền giá trị. Tương tự crossover, mutation cũng cần một boolean vector $v_{mt}$ để xác định những gen nào cần đột biến. Vector $v_{mt}$ được sinh ra một cách ngẫu nhiên theo một khả năng mutation $R_{mt}$ cho trước.
+- Mutate: chức năng làm đột biến gen cho cá thể. Gen cần đột biến sẽ nhận một giá trị ngẫn nhiên nằm trong miền giá trị. Tương tự crossover, mutation cũng cần một boolean vector $v_{mt}$ để xác định những gen nào cần đột biến. Vector $v_{mt}$ được sinh ra một cách ngẫu nhiên theo một khả năng mutation $R_{mt}$ cho trước.
 
 # Áp dụng thuật toán Genetic Algorithm
 
