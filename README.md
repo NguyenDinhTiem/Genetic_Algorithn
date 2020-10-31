@@ -1,4 +1,7 @@
-# Giới thiệu Thuật Toán Di Truyền <br>
+# Genetic Algorithn <br>
+
+### Bài viết thực hiện bởi nhóm AI Jumpzero 
+# Intro
 Xuất phát từ ý tưởng lý thuyết tiến hóa nhà khoa học Darwin vào đầu thế kỷ 19 là sự tiến hóa của muôn loài dựa trên sự chọn lọc tự nhiên. Từ đây, các nhà khoa học máy tính đã nghĩ một thuật toán dựa trên ý tưởng này để giải quyết các bài toán tìm kiếm tối ưu trên không gian cực lớn. Tuy nhiên, giải thuật vét cạn được biết đến qua thuật toán trên đơn thuần không giải quyết được vấn đề. Qua năm tháng, một giải thuật được biết đến với tên gọi "Giải Thuật Di Truyền" cho ra giải pháp có thể được chấp nhận
 
 
@@ -53,16 +56,13 @@ for individual in population:
 
 ## Evalution
 
-### secret $=\sum_{i}{}(v_i)$
-
-
 ```python
 # secret
 def secret(vector):
     return sum(vector)
 ```
 
-<h5><li> Evalution: hàm này dùng để tính giá trị fitness cho từng các thể.
+- Evalution: hàm này dùng để tính giá trị fitness cho từng các thể.
 
 >> ## Selection
 
@@ -320,7 +320,6 @@ plt.show()
 ```
 
 ![a2.png](https://github.com/NguyenDinhTiem/Genetic_Algorithn/blob/main/a2.png)
-
 
 
 Bài Viết tham khảo từ tài liệu khóa học mùa thu AI Foundation Course by AI Việt Nam
